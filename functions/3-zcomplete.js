@@ -45,6 +45,7 @@ exports.handler = async (event, context, cb) => {
     }
   } catch (error) {
     return {
+      
       statusCode: 500,
       body: 'Server Error',
     }
